@@ -1,0 +1,123 @@
+.text-platzi{
+    color: #97c93e !important;
+}
+.btn-platzi{
+    background-color: #97c93e;
+    color: white;
+}
+
+.btn-platzi:hover{
+    background-color:#70962b;
+    color: white;
+}
+nav img{
+    width: 80px;
+}
+
+h6{
+    color: cornsilk;
+    text-transform: uppercase;
+}
+
+.principal img{
+   max-height: 70vh;
+   object-fit: cover;
+   filter: grayscale(50%)
+}
+
+.carousel{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    align-items: center;
+    height: 100%
+}
+
+.carousel .overlay .container,
+.carousel .overlay .row{
+    height: 100%;
+}
+
+.principal button{
+    border-radius: 5px;
+}
+
+.card{
+    height: 560px;
+    background: none;
+}
+ .card img{
+     object-fit: cover;
+ }
+
+footer{
+    background-color: #1c3643;
+}
+
+footer a{
+    color: rgb(255 255 255);
+    text-decoration: none;
+}
+#lugar-fecha img{
+    width: 100%;
+}
+
+#lugar-fecha{
+    background-color: #343a40;
+    color: white;
+}
+ 
+.todos{
+    background-image: url(../images/logoguitarra.jpg);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position-x: 250px;
+    background-position-y: 80px;
+}
+
+.galeria img{
+    width: 280px;
+    height: 190px;
+}
+
+
+/* .cards{
+    background-image: url(../images/logoguitarra.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+    background-position-y: bottom;  
+} */
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+   
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .card{
+        max-width: auto;
+        max-height: 600px;
+        background: none;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (width: 1024px) { 
+
+    
+    
+ }
